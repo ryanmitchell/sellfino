@@ -1,6 +1,8 @@
 body { background: #f4f6f8; }
 #root ~ div {opacity: 0!important;pointer-events: none!important;}
 
+a { cursor: pointer; }
+
 .nobg { background: none; }
 .loading { pointer-events: none; display: inline-block; vertical-align: middle; margin-top: -2px; }
 .loading .badge { display: inline-block; vertical-align: middle; margin-top: -2px; width: 15px; height: 15px; padding: 0; border: 3px solid #fff; border-right-color: transparent; border-top-color: transparent; border-radius: 50%; -webkit-animation: rotate .5s linear 0s infinite; -moz-animation: rotate .5s linear 0s infinite;  -ms-animation: rotate .5s linear 0s infinite;  -o-animation: rotate .5s linear 0s infinite; animation: rotate .5s linear 0s infinite; }

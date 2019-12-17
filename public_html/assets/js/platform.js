@@ -31,6 +31,12 @@ Vue.prototype.admin_link = function(id, handle) {
   }
   return shopURL + '/admin/' + handle + '/' + id
 }
+Vue.prototype.date_format = function(date) {
+  d = new Date(date)
+  datestring = ("0" + d.getDate()).slice(-2) + "-" + ("0"+(d.getMonth()+1)).slice(-2) + "-" +
+  d.getFullYear() + " || " + ("0" + d.getHours()).slice(-2) + ":" + ("0" + d.getMinutes()).slice(-2);
+  return datestring
+}
 
 new Vue({
   el: '#root',
