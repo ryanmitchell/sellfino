@@ -246,7 +246,7 @@ Class Sellfino
           $filename = $file['filename'];
         }
 
-        $tag = '<script>Vue.component("' . $prefix . str_replace('/views', '', $path) . '-' . $filename . '", window.httpVueLoader("/asset/apps/' . $path . '/' . $file['basename'] . '"))</script>';
+        $tag = '<script>Vue.component("' . $prefix . str_replace(['/views', '/'], '', $path) . '-' . $filename . '", window.httpVueLoader("/asset/apps/' . $path . '/' . $file['basename'] . '"))</script>';
         $assets[] = $tag;
 
       }

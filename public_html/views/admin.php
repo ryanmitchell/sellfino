@@ -14,16 +14,17 @@ $_token = $data['_token'];
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
   <link rel="stylesheet" href="/assets/css/argon-dashboard.min.css" />
   <link rel="stylesheet" href="/assets/css/sellfino.css" />
+  <link rel="stylesheet" type="text/css" href="https://unpkg.com/pell@1.0.6/dist/pell.min.css">
   <script src="/assets/js/vue-dev.js"></script>
   <!-- <script src="/assets/js/vue.js"></script> -->
   <script src="/assets/js/vue-loader.js"></script>
   <script src="/assets/js/shopify.js"></script>
   <script src="/assets/js/sortable.js"></script>
   <script src="/assets/js/vuedraggable.js"></script>
+  <script src="https://unpkg.com/pell@1.0.6/dist/pell.min.js"></script>
 
   <script>Vue.component('view-apps', window.httpVueLoader('/views/inc/apps.vue'))</script>
   <script>Vue.component('view-settings', window.httpVueLoader('/views/inc/settings.vue'))</script>
-  <script src="https://cdn.jsdelivr.net/npm/@shopify/draggable@1.0.0-beta.6/lib/draggable.bundle.js"></script>
 
   <?php if(isset($data['assets'])) foreach ($data['assets'] as $asset) echo $asset; ?>
 

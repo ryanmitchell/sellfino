@@ -118,9 +118,13 @@ Class Shopify
     $response = curl_exec($curl);
     curl_close($curl);
 
-    list($header, $response) = explode("\r\n\r\n", $response, 2);
+    list($header, $response, $responseAlt) = explode("\r\n\r\n", $response, 3);
 
     $res = json_decode($response, true);
+
+    if (!$res) {
+      $response = $responseAlt;
+    }
 
     if (isset($res['errors']) && !$ignoreErrors) {
       header('Content-type: application/json');
