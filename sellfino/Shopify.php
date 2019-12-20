@@ -130,7 +130,7 @@ Class Shopify
 
     $res = json_decode($response, true);
 
-    if (!$res) {
+    if (!$res && isset($ex[2])) {
       $response = $ex[2];
     }
 
