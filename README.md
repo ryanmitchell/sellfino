@@ -33,7 +33,7 @@ Join our awesome community! Here is how you can connect with us:
 | <img width="30" src="https://www.sellfino.com/images/faq-icon.png"> | [FAQ]| ![ready] | Let your customers ask questions and manage the answers
 | <img width="30" src="https://www.sellfino.com/images/low-stock-icon.png"> | Low Stock Watcher | ![doing] | Automate email alerts for low stock products
 | <img width="30" src="https://www.sellfino.com/images/3d-icon.png"> | 3D Rotate | ![soon] | Display full perspective of the product in your theme
-| <img width="30" src="https://www.sellfino.com/images/loyalty-icon.png"> | Loyalty Program | ![soon] | Reward your customers with discounts and other bonuses
+| <img width="30" src="https://www.sellfino.com/images/loyal-icon.png"> | Loyalty Program | ![soon] | Reward your customers with discounts and other bonuses
 | | *More to come* | ![soon] | Join [Discord](https://discordapp.com/invite/wrFnzZ3) and send your ideas for new apps
 
 [Content Builder]: https://github.com/sellfino/app-content-builder
