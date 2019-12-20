@@ -19,7 +19,7 @@ function current_date() {
 
 Vue.prototype.shopURL = window.shopURL
 Vue.prototype.Shopify = Shopify
-Vue.prototype.img_url = function(src, size = 'small') {
+Vue.prototype.img_url = function(src, size = '100x100_crop_center') {
   split = src.split('.')
   split[split.length - 2] = split[split.length - 2] + '_' + size
   return split.join('.')
