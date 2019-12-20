@@ -19,7 +19,7 @@ Join our awesome community! Here is how you can connect with us:
 - [Email](mailto:contact@sellfino.com) - whenever we are out of touch, drop us a message
 
 
-<img src="https://www.sellfino.com/images/screen.jpg">
+<img src="https://www.sellfino.com/images/screen.png">
 
 ## Apps
 
