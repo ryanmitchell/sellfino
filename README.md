@@ -25,6 +25,7 @@ Join our awesome community! Here is how you can connect with us:
 
 | | App | Status | Description |
 |---------|---------|--------|-------------|
+| <img width="30" src="https://www.sellfino.com/images/content-builder-icon.png"> | [Content Builder] | ![ready] | Custom sections & fields everywhere (like ACF, Statamic, CraftCMS)
 | <img width="30" src="https://www.sellfino.com/images/out-of-stock-icon.png"> | [Out of Stock Manager] | ![ready] | Let your customers know when out of stock products are available again
 | <img width="30" src="https://www.sellfino.com/images/metafields.png"> | [Metafields Editor] | ![ready] | Edit metafields for products, collections, store and more
 | <img width="30" src="https://www.sellfino.com/images/zero-stock-icon.png"> | [Zero Stock to Hide] | ![ready] | Hides products from your store automatically when out of stock
@@ -35,6 +36,7 @@ Join our awesome community! Here is how you can connect with us:
 | <img width="30" src="https://www.sellfino.com/images/loyalty-icon.png"> | Loyalty Program | ![soon] | Reward your customers with discounts and other bonuses
 | | *More to come* | ![soon] | Join [Discord](https://discordapp.com/invite/wrFnzZ3) and send your ideas for new apps
 
+[Content Builder]: https://github.com/sellfino/app-content-builder
 [Out of Stock Manager]: https://github.com/sellfino/app-out-of-stock-manager
 [Metafields Editor]: https://github.com/sellfino/app-metafields-editor
 [Zero Stock to Hide]: https://github.com/sellfino/app-zero-stock-to-hide
