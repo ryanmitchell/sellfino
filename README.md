@@ -58,7 +58,7 @@ Join our awesome community! Here is how you can connect with us:
 #### 1. Shopify Partner Account
 - **1.1.** Go to the Shopify Partner website [https://partners.shopify.com](https://partners.shopify.com) and setup your account.
 - **1.2.** When it is ready, login to your new account and click *Apps*.
-- **1.3.** Now click *Create App*.
+- **1.3.** Now click *Create App*. Choose *Custom App*.
 - **1.4.** Name your app first (i.e. Sellfino App Store), then provide URL to your hosting, where you will put our platform (in our example: https://your-app-domain.com/).
 - **1.5.** In *Whitelisted redirection URL(s)* provide these links (keep both with slash and without at the end):
 `
@@ -76,15 +76,14 @@ https://your-app-domain.com/auth/shopify/callback/
 - **2.4.** Replace API keys with those that you got earlier. Under *HOST* provide URL to your hosting where you put the platform. Under *SCOPE* there are requirements needed to make future apps work - you can remove or add new ones based on what you need. Full list is [here](https://help.shopify.com/en/api/getting-started/authentication/oauth/scopes).
 - **2.5.** Point your domain to `public_html` folder in your hosting control panel.
 
-#### 3. Adding stores
-- **3.1.** Go to your app's domain (i.e. https://your-app-domain.com) - you should see form to provide URL of store.
-- **3.2.** Add store's URL of yours or your client. Remember to use domain with `*.myshopify.com` suffix.
+#### 3. Adding store
+- **3.1.** Go to your app's dashboard and click `Select store` in the *Test your app* card.
+- **3.2.** Select store where you want to install the platform and click *Install app*.
 - **3.3.** You should be redirected to your store - accept everything and it's done - you can go to the new master app (Sellfino App Store) and add apps you have. Congratulations! :tada:
 - **3.4.** If your or yours client store uses custom domain, you need to add it to the whitelist. After successful installation of the new store, in the root folder of the platform you should see `.domain` file. Add your all domains here and point them to `*.myshopify.com` primary domain of the store. It will filter all of the calls to your server and reject ones not from your stores. Example:
 ```
 "yourdomain.com":"your-store-domain.myshopify.com"
 ```
-- **3.5.** You can add as many stores as you want. Every store has its own folder under `stores` directory and JSON database.
 
 #### 4. Apps
 - **4.1.** To install new app, you need to copy folder of this app and put it under `apps` directory.
