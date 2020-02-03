@@ -8,8 +8,6 @@ Sellfino **Open Source Shopify App Store** is the PHP & Vue.js based platform wi
 
 **All apps in one place!**
 
-*Developers!* Add as many client stores as you want! No more duplicating apps for every client. Let them share the same code - or write private apps that can be used on the selected stores.
-
 #### Support and Contribution
 
 Join our awesome community! Here is how you can connect with us:
