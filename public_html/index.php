@@ -257,7 +257,7 @@ $sellfino->route('POST /app/@', function($sellfino, $url) {
 
     if ($active) {
 
-      $sellfino->app[$app]->router(join($paths, '/'));
+      $sellfino->app[$app]->router(join('/', $paths));
 
     } else {
 
